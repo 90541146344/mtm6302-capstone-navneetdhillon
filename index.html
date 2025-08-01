@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pokedex</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>POKÉDEX</h1>
+    <input type="search" placeholder="Search for a Pokémon..." id="searchBar"/>
+  </header>
+
+  <!-- Slideshow -->
+  <section class="slideshow" id="slideshow">
+    <button id="prevSlide">❮</button>
+    <div class="slides">
+      <div class="slide"><img src="https://imgcdn.stablediffusionweb.com/2024/5/21/5f964edc-8ba7-48c0-8f9f-95b711e5d4d5.jpg" alt="Pikachu"><h3>Power</h3></div>
+      <div class="slide"><img src="https://pict.ai/images/secure/GOBbJz/cpVK5jgOuYUdTUU_1711855663.png" alt="Charizard"><h3>Anger</h3></div>
+      <div class="slide"><img src="https://hotpotmedia.s3.us-east-2.amazonaws.com/8-naE6cSinU3rMURC.png" alt="Blastoise"><h3>Unity</h3></div>
+      <div class="slide"><img src="https://imgcdn.stablediffusionweb.com/2024/4/13/6252a954-0fa3-4035-ad23-7fcc7c264110.jpg" alt="Venusaur"><h3>Passion</h3></div>
+    </div>
+    <button id="nextSlide">❯</button>
+  </section>
+
+  <main>
+    <section class="pokemon-gallery" id="pokemonGallery"></section>
+  </main>
+
+ 
+
+
+  <main>
+    <section class="pokemon-gallery" id="pokemonGallery">
+      <!-- Pokémon Cards -->
+      <div class="pokemon-card" data-id="1" data-name="bulbasaur" data-types="grass,poison" data-img="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png">
+        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png" alt="Bulbasaur">
+        <h2>Bulbasaur</h2>
+        <p>#001</p>
+        <button class="view-details">View Details</button>
+      </div>
+      <div class="pokemon-card" data-id="2" data-name="ivysaur" data-types="grass,poison" data-img="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png">
+        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png" alt="Ivysaur">
+        <h2>Ivysaur</h2>
+        <p>#002</p>
+        <button class="view-details">View Details</button>
+      </div>
+      <div class="pokemon-card" data-id="3" data-name="venusaur" data-types="grass,poison" data-img="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png">
+        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png" alt="Venusaur">
+        <h2>Venusaur</h2>
+        <p>#003</p>
+        <button class="view-details">View Details</button>
+      </div>
+      <div class="pokemon-card" data-id="4" data-name="charmander" data-types="fire" data-img="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png">
+        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png" alt="Charmander">
+        <h2>Charmander</h2>
+        <p>#004</p>
+        <button class="view-details">View Details</button>
+      </div>
+      <div class="pokemon-card" data-id="5" data-name="charmeleon" data-types="fire" data-img="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png">
+        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png" alt="Charmeleon">
+        <h2>Charmeleon</h2>
+        <p>#005</p>
+        <button class="view-details">View Details</button>
+      </div>
+      <div class="pokemon-card" data-id="6" data-name="charizard" data-types="fire,flying" data-img="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png">
+        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png" alt="Charizard">
+        <h2>Charizard</h2>
+        <p>#006</p>
+        <button class="view-details">View Details</button>
+      </div>
+      <div class="pokemon-card" data-id="7" data-name="squirtle" data-types="water" data-img="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png">
+        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png" alt="Squirtle">
+        <h2>Squirtle</h2>
+        <p>#007</p>
+        <button class="view-details">View Details</button>
+      </div>
+      <div class="pokemon-card" data-id="8" data-name="wartortle" data-types="water" data-img="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png">
+        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png" alt="Wartortle">
+        <h2>Wartortle</h2>
+        <p>#008</p>
+        <button class="view-details">View Details</button>
+      </div>
+      <div class="pokemon-card" data-id="9" data-name="blastoise" data-types="water" data-img="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png">
+        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png" alt="Blastoise">
+        <h2>Blastoise</h2>
+        <p>#009</p>
+        <button class="view-details">View Details</button>
+      </div>
+      <div class="pokemon-card" data-id="10" data-name="caterpie" data-types="bug" data-img="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png">
+        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png" alt="Caterpie">
+        <h2>Caterpie</h2>
+        <p>#010</p>
+        <button class="view-details">View Details</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal -->
+  <div class="modal hidden" id="modal">
+    <div class="modal-content">
+      <span class="close" id="closeModal">&times;</span>
+      <h2 id="modalName"></h2>
+      <p class="type" id="modalTypes"></p>
+      <img id="modalImg" src="" alt="Pokemon Image" />
+      <ul id="modalStats">
+        <li><strong>HP:</strong> 50</li>
+        <li><strong>Attack:</strong> 50</li>
+        <li><strong>Defense:</strong> 50</li>
+        <li><strong>Speed:</strong> 50</li>
+      </ul>
+      <button class="caught">Mark as Caught</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
