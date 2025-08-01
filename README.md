@@ -1,4 +1,4 @@
-# MTM6302 Capstone Project - Pokedex
+# MTM6302 Capstone Project Part 1- Pokedex
 
 ## Name:
 Navneet Dhillon
@@ -19,5 +19,6 @@ The Pokedex Capstone Project is a web application built using HTML, CSS, and Jav
 - "Load more" functionality to paginate through the Pokémon list
 
 This project is an opportunity to demonstrate the culmination of skills learned in Web Development I, II, and III.
+
 
 
