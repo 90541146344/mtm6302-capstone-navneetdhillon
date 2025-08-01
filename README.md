@@ -1,4 +1,4 @@
-# MTM6302 Capstone Project Part 1- Pokedex
+# MTM6302 Capstone Project Part 2- Pokedex
 
 ## Name:
 Navneet Dhillon
@@ -33,6 +33,7 @@ Primary Color: Red (#EE1515)
 Accent Color: Yellow or Blue
 
 Font: Google Font like “Press Start 2P” (retro) or “Roboto” (clean)
+
 
 
 
