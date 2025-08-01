@@ -1,4 +1,4 @@
-# MTM6302 Capstone Project Part 1- Pokedex
+# MTM6302 Capstone Project Part 3- Pokedex
 
 ## Name:
 Navneet Dhillon
@@ -48,6 +48,7 @@ All files were tested using:
 HTML Validator
 
 CSS Validator
+
 
 
 
